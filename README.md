@@ -79,7 +79,7 @@ import knexMigrate from 'knex-migrate'
 // It has following signature:
 // knexMigrate(command: String, flags: Object, progress: Function)
 
-async function run() {
+async function run () {
   // Action can be: migrate, revert. Migration is migration name. For example:
   // Doing migrate on 20170427093232_add_users
   // Doing revert on 20170427093232_add_users
@@ -98,6 +98,8 @@ async function run() {
 
 run()
 ```
+
+update the knex dependence version
 
 ## Thank you
 
